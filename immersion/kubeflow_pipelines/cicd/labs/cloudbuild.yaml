@@ -40,3 +40,5 @@ steps:
 # Push the images to Container Registry
 # TODO: List the images to be pushed to the project Docker registry
 images: # TODO
+options:
+  logging: CLOUD_LOGGING_ONLY
